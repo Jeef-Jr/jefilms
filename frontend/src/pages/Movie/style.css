@@ -1,0 +1,18 @@
+#containerMovie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.titleMovie {
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+.video {
+  border-radius: 10px;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}

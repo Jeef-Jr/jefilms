@@ -1,0 +1,54 @@
+#home {
+  height: 500px;
+  background-color: white;
+}
+
+#containerHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.genero {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 20px;
+}
+
+.generoTitle {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #bdd5ea;
+  font-size: 40px;
+}
+
+.BtnCategory {
+  margin: 3px;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+}
+
+.BtnCategory:hover {
+  background-color: white;
+  color: #2b2d42;
+}
+
+.BtnCatActive {
+  background-color: white;
+  color: #2b2d42;
+}
+
+.rowHome {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,65 @@
+#containerAdd {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 150px;
+}
+
+.cardFormAdd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 500px;
+  border-radius: 10px;
+  background-color: #8d99ae;
+  border: 5px solid white;
+  height: 500px;
+}
+
+.titleCardAdd {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+.inputFormAdd {
+  width: 300px;
+  height: 30px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+.inputFormAdd:focus {
+  outline: none;
+}
+
+.camposForm {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 5px;
+  color: white;
+}
+
+.btnFormAdd {
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transition: all 0.2s;
+}
+
+.btnFormAdd:hover {
+  background-color: #2b2d42;
+  color: white;
+}

@@ -1,0 +1,38 @@
+#navbar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  z-index: 1;
+}
+
+.logo {
+  width: 80px;
+}
+
+.titleLogo {
+  font-size: 30px;
+  margin-left: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #27293d;
+}
+
+.buttonNav {
+  width: 200px;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 50px;
+  border: 5px solid #27293d;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.buttonNav:hover {
+  background-color: #27293d;
+  color: white;
+}

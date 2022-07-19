@@ -1,0 +1,27 @@
+#search {
+  display: flex;
+}
+
+.inputSearch {
+  text-align: center;
+  width: 500px;
+  margin: 10px;
+  height: 40px;
+  font-size: 25px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.inputSearch:focus {
+  outline: none;
+}
+
+.btnSearch {
+  height: 40px;
+  margin: 12px;
+  font-size: 20px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #27293d;
+}
