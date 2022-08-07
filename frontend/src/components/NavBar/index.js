@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import logo from "../../assets/logo.png";
 
-export default function NavBar(props) {
-  const status = props.status;
+export default function NavBar({ status, mudarGenery }) {
+  function handMudarGenry(v) {
+    mudarGenery([v]);
+  }
 
   function pageAdd() {
     if (!status) {
@@ -18,6 +20,14 @@ export default function NavBar(props) {
       <div className="row">
         <img className="logo" src={logo} alt="" />
         <h2 className="titleLogo">JeFilm's</h2>
+      </div>
+      <div>
+        <button onClick={() => handMudarGenry(false)} className="buttonNav">
+          Filmes
+        </button>
+        <button onClick={() => handMudarGenry(true)} className="buttonNav">
+          Séries
+        </button>
       </div>
       <div>
         {status && (

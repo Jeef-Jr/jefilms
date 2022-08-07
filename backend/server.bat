@@ -1,2 +1,2 @@
-cd D:\Projetos\Fivem\mercado_crazzy\backend
+D:\Projetos\Films\redfilms\backend
 npm run dev
